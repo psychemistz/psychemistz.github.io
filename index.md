@@ -16,7 +16,7 @@ Machine Learning -- Statistics -- Bioinformatics -- Scientific computing -- Data
 
 
 ## Links
-- [Curriculum Vitae in pdf](https://raw.githubusercontent.com/psychemistz/profile/master/files/pdf/cv.pdf)
+- [Curriculum Vitae in pdf](https://raw.githubusercontent.com/psychemistz/psychemistz.github.io/master/files/pdf/cv.pdf)
 - [Google Scholar](https://scholar.google.com/citations?user=3GelV-YAAAAJ&hl=en)
 - [Github](https://github.com/psychemistz)
 - [Course: Biomedical statistics & statistical learning, 2018](https://psychemistz.github.io/bis335-2018/)

@@ -14,7 +14,7 @@ name                     : "Seongyong Park"
 description              : "Personal Profile."
 url                      : "https://psychemistz.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-gh_repo                  : "psychemistz/profile"
+gh_repo                  : "psychemistz/psychemistz.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
