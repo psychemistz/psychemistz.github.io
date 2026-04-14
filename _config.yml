@@ -8,10 +8,10 @@
 # Site Settings
 locale                   : "en-US"
 
-title                    : "Profile"
+title                    : "Seongyong Park"
 title_separator          : "-"
 name                     : "Seongyong Park"
-description              : "Personal Profile."
+description              : "Postdoctoral Research Fellow, Cancer Data Science Laboratory, NCI/CCR, NIH. Computational methods for cell-to-cell communication, cytokine activity inference, and clinical biomarker discovery."
 url                      : "https://psychemistz.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "psychemistz/psychemistz.github.io"
@@ -55,9 +55,9 @@ google_ad_slot           :
 author:
   name             : "Seongyong Park"
   avatar           : "new_profile.jpg"
-  bio              : "Research Scientist in Machine Learning & Bioinformatics"
-  location         : "CDSL, NCI, MD, USA"
-  email            : "psychemistz@gmail.com"
+  bio              : "Postdoctoral Fellow at CDSL, NCI/CCR, NIH. Computational cell–cell communication, cytokine activity inference, and clinical biomarker discovery."
+  location         : "Bethesda, MD, USA"
+  email            : "seongyong.park@nih.gov"
   uri              :
   bitbucket        :
   codepen          :
@@ -66,6 +66,8 @@ author:
   facebook         :
   foursquare       :
   github           : psychemistz
+  google_scholar   : "https://scholar.google.com/citations?user=3GelV-YAAAAJ"
+  orcid            :
   google_plus      :
   keybase          :
   instagram        :

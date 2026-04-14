@@ -1,16 +1,23 @@
 ---
 layout: single
-title: "Home"
+title: "About"
 permalink: /
-date:
+author_profile: true
 ---
 
-This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+I am a postdoctoral fellow in the [Cancer Data Science Laboratory](https://ccr.cancer.gov/staff-directory/peng-jiang) at the National Cancer Institute, NIH, where I develop computational methods to infer **cell-to-cell communication** signals from gene-expression data.
 
-> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
+My work spans a fourteen-year arc from experimental systems for synthetic bacterial signaling (2011–2012, microfluidic concentrator arrays and inkjet-printed cell systems) to large-scale computational inference of cytokine and secreted-protein activity from bulk, single-cell, and spatial transcriptomics.
 
-...or something like this:
+## Current focus
 
-> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
+- **Cell–cell communication and cytokine-activity inference.** Open-source tools for regression-based activity inference from transcriptomic data, including [SecActPy](https://github.com/psychemistz/SecActPy), [spatial-gpu](https://github.com/psychemistz/spatial-gpu), and [RidgeR](https://github.com/psychemistz/RidgeR).
+- **Clinical biomarker discovery.** Prior-informed machine learning for disease-phenotype prediction, including immune-checkpoint-blockade response (IC2Bert, *Scientific Reports* 2025) and chemotherapy response in TNBC.
+- **AI in precision oncology.** Co-author on "Hallmarks of artificial intelligence contributions to precision oncology" (*Nature Cancer* 2025), an analysis of where AI has — and has not — moved the needle in oncology.
+- **Overlap statistics and sparse representation.** Effect-size measures (GSSMD, GMDM), sparse-coding-based classifiers, and self-supervised learning for biosignal reproducibility.
 
-You should probably delete this page and create new pages for your content. Have fun!
+Several projects are **ongoing at NCI/CDSL**; releases and manuscripts will be linked on the [Research](/research/) and [Publications](/publications/) pages as they become available.
+
+## Links
+
+[Google Scholar](https://scholar.google.com/citations?user=3GelV-YAAAAJ) &nbsp;·&nbsp; [GitHub](https://github.com/psychemistz) &nbsp;·&nbsp; [CV (PDF)](/files/cv.pdf) &nbsp;·&nbsp; [seongyong.park@nih.gov](mailto:seongyong.park@nih.gov)

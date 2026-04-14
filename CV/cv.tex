@@ -1,0 +1,129 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%\usepackage{CJKutf8}
+%\usepackage[utf8]{inputenc}
+%\usepackage{xeCJK}
+
+%\setCJKmainfont{UnGungseo.ttf}
+%\setCJKsansfont{UnGungseo.ttf}
+%\setCJKmonofont{gulim.ttf}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo{./examples/profile.png}
+
+\photo[circle,noedge,left]{profile} 
+\name{Seongyong}{Park}
+\position{Postdoctoral Research Fellow {\enskip\cdotp\enskip} Cancer Data Science Lab (CDSL)}
+\address{Building 41, NIH, Bethesda, MD, 20894, USA}
+
+\mobile{(+1) 640-204-6763}
+\email{seongyong.park@nih.gov}
+\homepage{https://psychemistz.github.io}
+% \github{Shujaat123}
+% \linkedin{shujaat-khan}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{ih1YHj0AAAAJ}{Seongyong Park}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``Things which we see are not by themselves what we see... It remains completely unknown to us what the objects may be by themselves and apart from the receptivity of our senses. We know nothing but our manner of perceiving them."  \textbf{Immanuel Kant}}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Seongyong Park~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{resume/summary.tex}
+\input{resume/experience.tex} % MODIFIED
+%\newpage
+% \input{cv/education.tex}
+% \input{resume/honors.tex} % MODIFIED
+% \input{cv/skills.tex}
+% \input{resume/committees.tex} % MODIFIED
+% \input{resume/experience.tex}
+% \input{cv/extracurricular.tex}
+% \input{resume/honors.tex}
+\input{resume/skills.tex} % MODIFIED
+% \input{resume/presentation.tex}
+%\newpage
+\input{resume/writing.tex}
+% \newpage
+% \input{resume/committees.tex} 
+\input{resume/education.tex} % MODIFIED
+% \newpage
+% \input{resume/references.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}

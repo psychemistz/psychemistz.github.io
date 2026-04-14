@@ -2,3 +2,20 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+# macOS
+.DS_Store
+._*
+
+# scratch / working docs
+carieer_narrative.md
+list_pub.md
+papertoon/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.synctex*
+missfont.log
