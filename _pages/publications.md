@@ -16,9 +16,9 @@ toc_sticky: true
 
 ## 2025
 
-1. Shin JM, **Park S**, Shin K, Seo WY, Kim HS, Kim DK, Moon B, Cha SG, et al. "Temporal convolutional neural network-based feature extraction and asynchronous channel information fusion method for heart abnormality detection in phonocardiograms." ***Computer Methods and Programs in Biomedicine*** 269, 108871 (2025). 📈
+1. Shin JM, **Park S**, Shin K, Seo WY, Kim HS, Kim DK, Moon B, Cha SG, et al. "Temporal convolutional neural network-based feature extraction and asynchronous channel information fusion method for heart abnormality detection in phonocardiograms." ***Computer Methods and Programs in Biomedicine*** 269, 108871 (2025). [[code](https://github.com/baporlab/pcg_pathological_murmur_detection)] 📈
 
-2. **Park S**, Kim S, Jiang P. "IC2Bert: masked gene expression pretraining and supervised fine tuning for robust immune checkpoint blockade (ICB) response prediction." ***Scientific Reports*** 15, 28044 (2025). 🧬
+2. **Park S**, Kim S, Jiang P. "IC2Bert: masked gene expression pretraining and supervised fine tuning for robust immune checkpoint blockade (ICB) response prediction." ***Scientific Reports*** 15, 28044 (2025). [[code](https://github.com/data2intelligence/ic2bert)] 🧬
 
 3. Chang TG, **Park S**, Schäffer AA, Jiang P, Ruppin E. "Hallmarks of artificial intelligence contributions to precision oncology." ***Nature Cancer*** 6(3), 417–431 (2025). 🧬
 
@@ -76,9 +76,12 @@ toc_sticky: true
 
 ## Patents
 
-- Min B, Yi G, **Park S.** "System and method for disease prediction based on group marker consisting of genes having similar function." *KR Patent 10-2236194* (issued 2021-03-30).
-- Kim T, **Park S.** "Microfluidic concentrator for communication assays of microbes." *KR Patent 10-1330473* (issued 2013-02-04).
-- Kim T, **Park S.** "Microfluidic concentrator array for observing predation behavior of microbes." *KR Patent 10-1238556* (issued 2013-02-22).
+- **Park S**, et al. "Method, computer program, and system for analyzing heart valve abnormalities based on heart murmur." *KR Patent App. 10-2023-0014972* (registered 2025-12-30). 📈
+- **Park S**, et al. "Pulmonary function test apparatus and method using lung sound." *KR Patent App. 10-2023-0022834* (registered 2023-02-21). 📈
+- **Park S**, et al. "Method for measuring preload of patients undergoing general anesthesia surgery based on acoustic variability index, and electronic device for executing thereof." *KR Patent App. 10-2023-0021404* (registered 2023-02-17). 📈
+- Min B, Yi G, **Park S.** "System and method for disease prediction based on group marker consisting of genes having similar function." *KR Patent 10-2236194* (issued 2021-03-30). 🧬
+- Kim T, **Park S.** "Microfluidic concentrator for communication assays of microbes." *KR Patent 10-1330473* (issued 2013-02-04). 🫂
+- Kim T, **Park S.** "Microfluidic concentrator array for observing predation behavior of microbes." *KR Patent 10-1238556* (issued 2013-02-22). 🫂
 
 ---
 
