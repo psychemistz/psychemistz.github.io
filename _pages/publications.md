@@ -87,8 +87,21 @@ toc_sticky: true
 
 ## Software
 
-- [**SecActPy**](https://github.com/psychemistz/SecActPy) — secreted-protein activity inference (Python). 🫂
-- [**spatial-gpu**](https://github.com/psychemistz/spatial-gpu) — GPU-accelerated spatial kernels for neighborhood activity inference. 🫂
-- [**RidgeR**](https://github.com/psychemistz/RidgeR) — R package for ridge-regression-based activity inference. 🫂
+**Author / primary maintainer.**
+
+- [**spatial-gpu**](https://github.com/psychemistz/spatial-gpu) — GPU-accelerated spatial kernels for neighborhood activity inference on spatial transcriptomics (Python). 🫂
+
+**Main contributor** (project initiated by B. Ru).
+
+- [**ridger**](https://github.com/beibeiru/ridger) — R package for ridge-regression-based activity inference. 🫂
+
+**Contributor.**
+
+- [**secactpy**](https://github.com/data2intelligence/secactpy) — Python implementation of SecAct for secreted-protein activity inference (Jiang Lab, NCI; maintainer B. Ru). 🫂
+
+**Related packages I've contributed to** (Jiang Lab, NCI; maintainer B. Ru):
+
+- [secact](https://github.com/data2intelligence/secact) — R package for secreted-protein activity inference.
+- [spacet](https://github.com/data2intelligence/spacet) — Spatial Cellular Estimator for Tumors.
 
 Additional software and datasets are **ongoing at NCI/CDSL**.

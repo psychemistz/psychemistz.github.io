@@ -24,11 +24,13 @@ See the [Publications](/publications/) page for a full list; [Google Scholar](ht
 
 A through-line from wet-lab beginnings. My earliest work (2011–12, with Taesung Kim's group) built **microfabricated concentrator arrays** and **inkjet-printed bacterial cell systems** to study synthetic bacterial cell-to-cell communication and predator–prey dynamics at single-cell resolution (*Biomaterials* 2011; *Lab on a Chip* 2011, 2012). The underlying question — *how do cells exchange signals, and can we read those signals quantitatively?* — is the same question I now address computationally in human tissue.
 
-At NCI/CDSL, I develop tools that infer the activity of secreted proteins and cytokines from transcriptomic data:
+At NCI/CDSL, I contribute to and develop tools that infer the activity of secreted proteins and cytokines from transcriptomic data:
 
-- **[SecActPy](https://github.com/psychemistz/SecActPy)** — Python package for secreted-protein activity inference from bulk and single-cell gene expression.
-- **[spatial-gpu](https://github.com/psychemistz/spatial-gpu)** — GPU-accelerated spatial kernels for neighborhood activity estimation on spatial transcriptomics.
-- **[RidgeR](https://github.com/psychemistz/RidgeR)** — R companion for ridge-regression-based activity inference.
+- **[spatial-gpu](https://github.com/psychemistz/spatial-gpu)** — GPU-accelerated spatial kernels for neighborhood activity estimation on spatial transcriptomics. *(Author.)*
+- **[ridger](https://github.com/beibeiru/ridger)** — R package for ridge-regression-based activity inference. *(Main contributor; project initiated by B. Ru.)*
+- **[secactpy](https://github.com/data2intelligence/secactpy)** — Python implementation of SecAct for secreted-protein activity inference from bulk and single-cell gene expression. *(Contributor; Jiang Lab, NCI.)*
+
+Related R packages from the Jiang Lab that I've contributed to: [secact](https://github.com/data2intelligence/secact) and [spacet](https://github.com/data2intelligence/spacet) (Spatial Cellular Estimator for Tumors).
 
 Additional resources and manuscripts in this area are **ongoing at NCI/CDSL** and will be linked here upon release.
 
