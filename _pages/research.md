@@ -26,9 +26,9 @@ A through-line from wet-lab beginnings. My earliest work (2011–12, with Taesun
 
 At NCI/CDSL, I contribute to and develop tools that infer the activity of secreted proteins and cytokines from transcriptomic data:
 
+- **[secactpy](https://github.com/data2intelligence/secactpy)** — Python package for secreted-protein activity inference from bulk and single-cell gene expression; hosted under the Jiang Lab `data2intelligence` organization. *(Author.)*
 - **[spatial-gpu](https://github.com/psychemistz/spatial-gpu)** — GPU-accelerated spatial kernels for neighborhood activity estimation on spatial transcriptomics. *(Author.)*
 - **[ridger](https://github.com/beibeiru/ridger)** — R package for ridge-regression-based activity inference. *(Main contributor; project initiated by B. Ru.)*
-- **[secactpy](https://github.com/data2intelligence/secactpy)** — Python implementation of SecAct for secreted-protein activity inference from bulk and single-cell gene expression. *(Contributor; Jiang Lab, NCI.)*
 
 Related R packages from the Jiang Lab that I've contributed to: [secact](https://github.com/data2intelligence/secact) and [spacet](https://github.com/data2intelligence/spacet) (Spatial Cellular Estimator for Tumors).
 
