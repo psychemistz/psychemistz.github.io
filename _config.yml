@@ -55,7 +55,7 @@ google_ad_slot           :
 author:
   name             : "Seongyong Park"
   avatar           : "new_profile.jpg"
-  bio              : "Postdoctoral Fellow at CDSL, NCI/CCR, NIH. Computational cell–cell communication, cytokine activity inference, and clinical biomarker discovery."
+  bio              : "Postdoctoral Research Fellow at CDSL, NCI/CCR, NIH. Computational cell–cell communication, cytokine activity inference, and clinical biomarker discovery."
   location         : "Bethesda, MD, USA"
   email            : "seongyong.park@nih.gov"
   uri              :
@@ -91,6 +91,7 @@ include:
   - _pages
 exclude:
   - "*.sublime-project"
+  - CV
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
@@ -100,7 +101,6 @@ exclude:
   - assets/js/_main.js
   - assets/js/vendor
   - Capfile
-  - CHANGELOG
   - config
   - Gemfile
   - Gruntfile.js
@@ -110,7 +110,7 @@ exclude:
   - node_modules
   - package.json
   - Rakefile
-  - README
+  - README.md
   - tmp
 keep_files:
   - .git
@@ -141,14 +141,11 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
-  - jekyll-paginate
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -156,7 +153,6 @@ gems:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed

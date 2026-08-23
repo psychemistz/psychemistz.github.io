@@ -24,6 +24,8 @@ See the [Publications](/publications/) page for a full list; [Google Scholar](ht
 
 A through-line from wet-lab beginnings. My earliest work (2011–12, with Taesung Kim's group) built **microfabricated concentrator arrays** and **inkjet-printed bacterial cell systems** to study synthetic bacterial cell-to-cell communication and predator–prey dynamics at single-cell resolution (*Biomaterials* 2011; *Lab on a Chip* 2011, 2012). The underlying question — *how do cells exchange signals, and can we read those signals quantitatively?* — is the same question I now address computationally in human tissue.
 
+The framework behind this work is **SecAct**, which infers the signaling activities of 1,170 human secreted proteins from spatial, single-cell, and bulk transcriptomics and was validated against anti-secreted-protein therapies and 54 immunotherapy cohorts (Ru, Gong, Yang, Park, et al., *Nature Methods* 2026). I am a co-author.
+
 At NCI/CDSL, I contribute to and develop tools that infer the activity of secreted proteins and cytokines from transcriptomic data:
 
 - **[secactpy](https://github.com/data2intelligence/secactpy)** — Python package for secreted-protein activity inference from bulk and single-cell gene expression; hosted under the Jiang Lab `data2intelligence` organization. *(Author.)*
@@ -112,7 +114,7 @@ Temporal-convolutional feature extraction with asynchronous channel-information 
 
 ### Sparse-subsample gene-expression reconstruction
 
-A U-Net-like CNN reconstructs full gene-expression vectors from 10 % subsamples, exploiting the modular and sparse structure of transcriptional programs (PCC ≈ 0.86 versus state-of-the-art reconstruction methods).
+A U-Net-like CNN reconstructs full gene-expression vectors from 10% subsamples, exploiting the modular and sparse structure of transcriptional programs (Pearson *r* ≈ 0.86 between reconstructed and measured profiles). Unpublished.
 
 ![Sparse-subsample reconstruction](/images/ssrecon.png){: .align-center width="70%"}
 

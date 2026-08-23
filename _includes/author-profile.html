@@ -61,6 +61,12 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
+      {% if author.google_scholar %}
+        <li><a href="{{ author.google_scholar }}"><i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      {% endif %}
+      {% if author.orcid %}
+        <li><a href="{{ author.orcid }}"><i class="fa fa-fw fa-id-card" aria-hidden="true"></i> ORCID</a></li>
+      {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}

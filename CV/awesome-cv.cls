@@ -48,6 +48,8 @@
 %-------------------------------------------------------------------------------
 % Needed to make fixed length table
 \RequirePackage{array}
+% Needed to keep a section heading with the content that follows it
+\RequirePackage{needspace}
 % Needed to let a column absorb the remaining width (see cvskills)
 \RequirePackage{tabularx}
 \RequirePackage{environ}
@@ -571,6 +573,7 @@
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{%
+  \needspace{4\baselineskip}%
   \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
   \phantomsection
