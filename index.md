@@ -34,7 +34,7 @@ Machine Learning -- Statistics -- Bioinformatics -- Scientific computing -- Data
 ## Education
 - *2015-2022*: **Ph.D.** in Bio and Brain Engineering at Korean Advanced Institute of Science and Technology ([KAIST](http://www.kaist.ac.kr)), Daejeon, South Korea.
 - *2010-2012*: **M.S.** in Mechanical Engineering. Ulsan National Institute of Science and Technology ([UNIST](http://www.unist.ac.kr/)), Ulsan, South Korea.
-- *2002-2010*: **B.S.** in Mechanical Engineering. Pukyung National University ([PKNU](http://www.pknu.ac.kr/)), Busan, South Korea.
+- *2002-2010*: **B.S.** in Mechanical Engineering. Pukyong National University ([PKNU](http://www.pknu.ac.kr/)), Busan, South Korea.
 
 
 ## Bio

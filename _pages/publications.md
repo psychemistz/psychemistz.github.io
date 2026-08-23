@@ -92,10 +92,6 @@ toc_sticky: true
 - [**secactpy**](https://github.com/data2intelligence/secactpy) — Python package for secreted-protein activity inference from bulk and single-cell gene expression (hosted under the Jiang Lab `data2intelligence` organization). 🫂
 - [**spatial-gpu**](https://github.com/psychemistz/spatial-gpu) — GPU-accelerated spatial kernels for neighborhood activity inference on spatial transcriptomics (Python). 🫂
 
-**Main contributor** (project initiated by B. Ru).
-
-- [**ridger**](https://github.com/beibeiru/ridger) — R package for ridge-regression-based activity inference. 🫂
-
 **Contributor** (Jiang Lab, NCI; maintainer B. Ru).
 
 - [secact](https://github.com/data2intelligence/secact) — R package for secreted-protein activity inference.

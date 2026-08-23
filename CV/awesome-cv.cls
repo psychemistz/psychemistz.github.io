@@ -48,6 +48,9 @@
 %-------------------------------------------------------------------------------
 % Needed to make fixed length table
 \RequirePackage{array}
+% Needed to let a column absorb the remaining width (see cvskills)
+\RequirePackage{tabularx}
+\RequirePackage{environ}
 % Needed to handle list environment
 \RequirePackage{enumitem}
 % Needed to handle text alignment
@@ -74,6 +77,10 @@
 \RequirePackage{unicode-math}
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
+% fontawesome.sty loads \FA by bare family name, which XeTeX can only resolve
+% via the system fontconfig cache. Pin it to the FontAwesome.otf shipped with
+% the same package so kpathsea finds it on any TeX Live install.
+\defaultfontfeatures[FontAwesome]{Extension=.otf}
 \RequirePackage{fontawesome}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
@@ -654,15 +661,16 @@
 }
 
 % Define an environment for cvskill
-\newenvironment{cvskills}{%
+\NewEnviron{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2.0mm}
   \begin{center}
-    \setlength\tabcolsep{1ex}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
-}{%
-    \end{tabular*}
+    \setlength\tabcolsep{1ex}%
+    \setlength{\extrarowheight}{0pt}%
+    \renewcommand{\tabularxcolumn}[1]{m{##1}}%
+    \begin{tabularx}{\textwidth}{r >{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}X}
+      \BODY
+    \end{tabularx}
   \end{center}
 }
 % Define a line of cv information(skill)
