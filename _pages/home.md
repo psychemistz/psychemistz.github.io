@@ -5,9 +5,9 @@ permalink: /
 author_profile: true
 ---
 
-I am a postdoctoral research fellow in the [Cancer Data Science Laboratory](https://ccr.cancer.gov/staff-directory/peng-jiang) at the National Cancer Institute, NIH, where I develop **computational immuno-oncology applications**. My major focus of study is **secreted-factor-mediated signaling and cell-to-cell communication** — inferring which secreted proteins are active in a tissue and how they route signals between cells, from bulk, single-cell, and spatial transcriptomics.
+I am a computational scientist and AI researcher developing machine learning and statistical methods for biomedical discovery. I am currently a postdoctoral research fellow at the [Cancer Data Science Laboratory](https://ccr.cancer.gov/staff-directory/peng-jiang) (CDSL), NCI/CCR, NIH, where my research focuses on **computational immuno-oncology** and the inference of **cell–cell communication**. In particular, I develop methods to infer the activity of secreted proteins and characterize how signaling is coordinated across cells and tissues using bulk, single-cell, and spatial transcriptomics — work that integrates biological knowledge, statistical modeling, and machine learning to uncover signaling mechanisms, identify clinically relevant biomarkers, and improve our understanding of therapeutic response.
 
-My work runs from experimental systems for synthetic bacterial signaling (2011–2012, microfluidic concentrator arrays and inkjet-printed cell systems) through to large-scale computational inference of cytokine and secreted-protein activity.
+More broadly, my methodological interests include biologically informed machine learning, representation learning, foundation and self-supervised learning, sparse modeling, and statistical methods for evaluating biological data and model quality. Before focusing on computational immuno-oncology, I worked on gene-expression-based disease and drug-response prediction, biosignal processing and diagnostic modeling, and microfluidic systems for synthetic biology. That interdisciplinary training — mechanical engineering, bioengineering, computational biology, and AI — lets me approach biomedical problems from both methodological and biological perspectives.
 
 ## Current focus
 
