@@ -8,7 +8,7 @@ toc_label: "Years"
 toc_sticky: true
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=3GelV-YAAAAJ) is the most current list; this page mirrors it and groups papers by theme. **Bold** indicates my name.
+[Google Scholar](https://scholar.google.com/citations?user=3GelV-YAAAAJ) is the most current list; this page lists peer-reviewed work grouped by theme. **Bold** indicates my name.
 
 **Themes:** 🫂 cell–cell communication · 🧬 biomarker discovery · 🧩 sparse representation & overlap statistics · 📈 biosignal processing
 
@@ -58,23 +58,19 @@ toc_sticky: true
 
 15. **Park S**, Khan S, Moinuddin M, Al-Saggaf UM. "GSSMD: A new standardized effect size measure to improve robustness and interpretability in biological applications." ***IEEE International Conference on Bioinformatics and Biomedicine (BIBM)***, pp. 1096–1099 (2020). 🧩
 
-16. **Park S**, Khan S, Wahab A. "E3-targetPred: Prediction of E3-target proteins using deep latent space encoding." *arXiv:2007.12073* (2020). 🧩
-
-17. **Park S**, Khan S. "GSSMD: New metric for robust and interpretable assay quality assessment and hit selection." *arXiv:2001.06384* (2020). 🧩
-
 ## 2017
 
-18. Lee YH, Choi H, **Park S**, Lee B, Yi GS. "Drug repositioning for enzyme modulator based on human metabolite-likeness." ***BMC Bioinformatics*** 18(Suppl 7), 226 (2017). 🧬
+16. Lee YH, Choi H, **Park S**, Lee B, Yi GS. "Drug repositioning for enzyme modulator based on human metabolite-likeness." ***BMC Bioinformatics*** 18(Suppl 7), 226 (2017). 🧬
 
 ## 2011–2012 — experimental microfluidics
 
-19. **Park S**, Hong X, Choi WS, Kim T. "Microfabricated ratchet structure integrated concentrator arrays for synthetic bacterial cell-to-cell communication assays." ***Lab on a Chip*** 12(20), 3914–3922 (2012). 🫂
+17. **Park S**, Hong X, Choi WS, Kim T. "Microfabricated ratchet structure integrated concentrator arrays for synthetic bacterial cell-to-cell communication assays." ***Lab on a Chip*** 12(20), 3914–3922 (2012). 🫂
 
-20. Vinuselvi P, **Park S**, Kim M, Park JM, Kim T, Lee SK. "Microfluidic technologies for synthetic biology." ***International Journal of Molecular Sciences*** 12(6), 3576–3593 (2011). 🫂
+18. Vinuselvi P, **Park S**, Kim M, Park JM, Kim T, Lee SK. "Microfluidic technologies for synthetic biology." ***International Journal of Molecular Sciences*** 12(6), 3576–3593 (2011). 🫂
 
-21. Choi WS, Ha D, **Park S**, Kim T. "Synthetic multicellular cell-to-cell communication in inkjet printed bacterial cell systems." ***Biomaterials*** 32(10), 2500–2507 (2011). 🫂
+19. Choi WS, Ha D, **Park S**, Kim T. "Synthetic multicellular cell-to-cell communication in inkjet printed bacterial cell systems." ***Biomaterials*** 32(10), 2500–2507 (2011). 🫂
 
-22. **Park S**, Kim D, Mitchell RJ, Kim T. "A microfluidic concentrator array for quantitative predation assays of predatory microbes." ***Lab on a Chip*** 11(17), 2916–2923 (2011). 🫂
+20. **Park S**, Kim D, Mitchell RJ, Kim T. "A microfluidic concentrator array for quantitative predation assays of predatory microbes." ***Lab on a Chip*** 11(17), 2916–2923 (2011). 🫂
 
 ---
 

@@ -73,9 +73,7 @@ Two methodological threads that appear across biomedical applications.
 
 ### Deep Latent Space Encoding (DeepLSE) and Deep Sparse Reconstruction Classifier (DeepSRC)
 
-DeepLSE learns non-linear low-dimensional embeddings while enforcing reconstruction consistency, filtering noisy annotations by distance to class centers. Applied to antifreeze proteins (**AFP-SRC**, *Neural Comput. Appl.* 2022), antioxidant proteins (**AoP-LSE**, *Curr. Issues Mol. Biol.* 2021), E3–target pair prediction (**E3TargetPred**, arXiv 2020), and anticancer-peptide classification (*IEEE Access* 2023).
-
-![E3TargetPred latent space](/images/e3targetpred_latent.png){: .align-center width="70%"}
+DeepLSE learns non-linear low-dimensional embeddings while enforcing reconstruction consistency, filtering noisy annotations by distance to class centers. Applied to antifreeze proteins (**AFP-SRC**, *Neural Comput. Appl.* 2022), antioxidant proteins (**AoP-LSE**, *Curr. Issues Mol. Biol.* 2021), and anticancer-peptide classification (*IEEE Access* 2023).
 
 DeepSRC is an autoencoder realization of the sparse-representation-based classification (SRC) framework — a sparse coding layer between encoder and decoder — that inherits SRC's robustness to redundant and noisy features.
 
@@ -85,7 +83,7 @@ DeepSRC is an autoencoder realization of the sparse-representation-based classif
 
 Distribution overlap is a fundamental effect-size measure for binary classification, and a principled alternative to Z-factor or SSMD in bioassay quality assessment.
 
-- **GSSMD** — Generalized Standardized Sample Mean Difference, a robust effect-size measure for biological assays (*IEEE BIBM* 2020; arXiv 2020).
+- **GSSMD** — Generalized Standardized Sample Mean Difference, a robust effect-size measure for biological assays (*IEEE BIBM* 2020).
 - **ovltools** — R package for KDE-, KNN-, histogram-, and distribution-fitting-based overlap estimation with permutation-based significance tests.
 - **GMDM** — Generalized Multi-Dimensional overlap Metric (*Digital Signal Processing* 2023), extending one-dimensional overlap to multivariate data. Applied to style-transfer quality, denoising-model evaluation, and sequence-encoding classifiability.
 
